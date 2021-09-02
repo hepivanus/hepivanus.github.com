@@ -1,7 +1,7 @@
 const textElement = ["Web Developer, App Mobile Android & iOS, IT Support."];
 let count = 0;
 let txtIndex = 0;
-let currentTxt = 0;
+let currentTxt = "";
 let words = "";
 (function lead() {
   if (count == textElement.length) {
