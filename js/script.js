@@ -10,4 +10,6 @@ let words = "";
   currentTxt = textElement[count];
   words = currentTxt.slice(0, ++txtIndex);
   document.querySelector(".lead").textContent = words;
+
+  setTimeout(lead, 500);
 });
